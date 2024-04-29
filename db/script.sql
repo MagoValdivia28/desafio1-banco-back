@@ -5,8 +5,10 @@ CREATE TABLE bruxos (
     casa VARCHAR(255) NOT NULL,
     habilidade VARCHAR(255) NOT NULL,
     sangue VARCHAR(255) NOT NULL,
-    patrono VARCHAR(255) NOT NULL
+    patrono VARCHAR(255)
 );
+
+
 
 CREATE TABLE varinhas (
     id SERIAL PRIMARY KEY,
@@ -15,3 +17,4 @@ CREATE TABLE varinhas (
     nucleo VARCHAR(255) NOT NULL,
     data_criacao DATE NOT NULL
 );
+
